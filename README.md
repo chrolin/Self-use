@@ -31,7 +31,7 @@
 > **@DivineEngine：** [点击前往](https://divineengine.net/more/special/surge)
 
 ## clash订阅转换推荐
-> Tutu的全平台分流规则：** [点击前往](https://sub.tutu.asia/)
+> Tutu的全平台分流规则：**[点击前往](https://sub.tutu.asia/)
 
 
 ## 🍟 整点薯条项目列表
