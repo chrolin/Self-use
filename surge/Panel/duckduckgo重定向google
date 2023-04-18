@@ -1,5 +1,5 @@
-#!name=duckduckgo重定向google
-#!desc=xxxxxx
+#!name=重定向google
+#!desc=duckduckgo重定向google
 
 [URL Rewrite]
 ^https:\/\/duckduckgo.com\/\?q=wk\+([^&]+).+ https://zh.m.wikipedia.org/wiki/$1 302
