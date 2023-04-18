@@ -1,4 +1,4 @@
-<h1 align="center">Loon与Surge,clash自用配置、规则及模块和脚本</h1>
+<h1 align="center">Loon与Surge、clash自用配置、规则及模块和脚本</h1>
 
 ### 欢迎在App图标内选用我制作的图标
 
