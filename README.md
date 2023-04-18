@@ -65,9 +65,7 @@
   * [@HoCooo](https://github.com/HoCooo)
   * [@DivineEngine](https://github.com/DivineEngine)
   * [@Code-Dramatist](https://github.com/Code-Dramatist)
+  * [@Trovoy] https://github.com/Trovoy
 ### (如有遗漏万分抱歉，请联系我加上！）
 
----
 
-### 既然来了就点点关注和Star🌟叭～
-### 爱你哦宝😘
