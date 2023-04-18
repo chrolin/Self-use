@@ -65,7 +65,7 @@
   * [@HoCooo](https://github.com/HoCooo)
   * [@DivineEngine](https://github.com/DivineEngine)
   * [@Code-Dramatist](https://github.com/Code-Dramatist)
-  * [@Trovoy] https://github.com/Trovoy
+  * [@Trovoy](https://github.com/Trovoy
 ### (如有遗漏万分抱歉，请联系我加上！）
 
 
