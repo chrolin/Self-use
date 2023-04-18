@@ -21,8 +21,9 @@
 
 ## Loon
 > **官方教程 :** [点击前往](https://coffee-elderberry-22b.notion.site/Loon-71747252d5054551a8cd10924064899c)<br>
-> **@Code-Dramatist规则集合 :** [点击前往](https://github.com/Code-Dramatist/Rule_Actions#loon%E8%A7%84%E5%88%99%E9%93%BE%E6%8E%A5)<br>
 > **可莉插件集合：** [点击前往](https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin)<br>
+> **@Code-Dramatist规则集合 :** [点击前往](https://github.com/Code-Dramatist/Rule_Actions#loon%E8%A7%84%E5%88%99%E9%93%BE%E6%8E%A5)<br>
+
 
 
 ## Surge教程地址
