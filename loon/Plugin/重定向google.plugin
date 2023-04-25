@@ -1,7 +1,7 @@
 #!name=重定向google
 #!desc=duckduckgo重定向google
 
-[URL Rewrite]
+[Rewrite]
 ^https:\/\/duckduckgo.com\/\?q=wk\+([^&]+).+ https://zh.m.wikipedia.org/wiki/$1 302
 ^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
 ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
