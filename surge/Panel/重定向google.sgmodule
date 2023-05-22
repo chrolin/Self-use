@@ -1,9 +1,9 @@
-#!name=重定向google
-#!desc=duckduckgo重定向google
+#!name=AiSearch
+#!desc=Safari搜索
 
 [URL Rewrite]
 ^https:\/\/duckduckgo.com\/\?q=wk\+([^&]+).+ https://zh.m.wikipedia.org/wiki/$1 302
-^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
+^https:\/\/duckduckgo.com\/\?q=bi\+([^&]+).+ https://www.bing.com/search?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=db\+([^&]+).+ https://m.douban.com/search/?query=$1 302
 ^https:\/\/duckduckgo.com\/\?q=zh\+([^&]+).+ https://www.zhihu.com/search?type=content&q=$1 302
