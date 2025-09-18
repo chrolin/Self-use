@@ -1,25 +1,34 @@
 # ========================
-# 交易所 / 钱包 / DeFi 官方域名与 IP（放行）
+# 放行规则（官方站点/交易所/钱包/DeFi/社区活动）
 # ========================
 
+# ------------------------
 # Binance 官方
-DOMAIN-SUFFIX,binance.com
-DOMAIN-SUFFIX,binance.us
-DOMAIN-SUFFIX,binance.org
+# ------------------------
+DOMAIN-SUFFIX,binance.com           # Binance 主站
+DOMAIN-SUFFIX,binance.us            # Binance US
+DOMAIN-SUFFIX,binance.org           # Binance 国际组织站
 DOMAIN-SUFFIX,binance.net
 DOMAIN-SUFFIX,binance.info
 DOMAIN-SUFFIX,binance.me
-DOMAIN-SUFFIX,binanceapi.com
-IP-CIDR,35.76.23.237/32
-IP-CIDR,52.196.54.88/32
+DOMAIN-SUFFIX,binanceapi.com        # Binance API
+DOMAIN-SUFFIX,binance.cloud         # Binance 云服务
 IP-CIDR,120.24.233.110/32
 IP-CIDR,120.76.205.62/32
 IP-CIDR,120.78.229.149/32
 IP-CIDR,120.79.3.17/32
 
+# Binance 社区/社交活动
+DOMAIN-SUFFIX,binancefans.com
+DOMAIN-SUFFIX,binanceforum.com
+DOMAIN-SUFFIX,binanceevents.com
+
+# ------------------------
 # OKX / OKEx 官方
+# ------------------------
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,oklink.com
 IP-CIDR,47.107.127.135/32
 IP-CIDR,47.107.32.31/32
 IP-CIDR,47.107.72.24/32
@@ -28,41 +37,37 @@ IP-CIDR,47.107.98.27/32
 IP-CIDR,52.68.117.1/32
 IP-CIDR,54.150.106.1/32
 
+# OKX 社区/社交活动
+DOMAIN-SUFFIX,okxcommunity.com
+
+# ------------------------
 # Bybit 官方
+# ------------------------
 DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,bybitglobal.com
-IP-CIDR,83.64.41.136/29
 
-# Huobi 官方
-DOMAIN-SUFFIX,huobi.com
-IP-CIDR,3.211.196.62/32
-IP-CIDR,52.44.248.137/32
-IP-CIDR,54.248.180.59/32
-IP-CIDR,54.178.162.63/32
-IP-CIDR,35.74.2.235/32
-IP-CIDR,18.181.32.224/32
-IP-CIDR,54.250.87.53/32
+# Bybit 社区/社交活动
+DOMAIN-SUFFIX,bybitfans.com
 
+# ------------------------
 # Gate.io 官方
+# ------------------------
 DOMAIN-SUFFIX,gate.io
 IP-CIDR,43.159.108.216/32
+IP-CIDR,216.6.5.37/32
+IP-CIDR,124.217.130.14/32
+DOMAIN-SUFFIX,social-hw.gateio.im
+DOMAIN-SUFFIX,snssdk.gatedata.org
 
-# Coinbase 官方
-DOMAIN-SUFFIX,coinbase.com
-
-# Kraken 官方
-DOMAIN-SUFFIX,kraken.com
-
-# KuCoin 官方
-DOMAIN-SUFFIX,kucoin.com
-
-# Mexc 官方
-DOMAIN-SUFFIX,mexc.com
-
-# Bitget 官方
-DOMAIN-SUFFIX,bitget.com
-
+# ------------------------
 # 其他交易所官方
+# ------------------------
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,huobi.com
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,kucoin.com
+DOMAIN-SUFFIX,mexc.com
+DOMAIN-SUFFIX,bitget.com
 DOMAIN-SUFFIX,bitfinex.com
 DOMAIN-SUFFIX,bitstamp.net
 DOMAIN-SUFFIX,bittrex.com
@@ -71,7 +76,9 @@ DOMAIN-SUFFIX,bitmart.com
 DOMAIN-SUFFIX,bitflyer.com
 DOMAIN-SUFFIX,btc.com
 
+# ------------------------
 # 钱包服务（官方）
+# ------------------------
 DOMAIN-SUFFIX,metamask.io
 DOMAIN-SUFFIX,trustwallet.com
 DOMAIN-SUFFIX,trezor.io
@@ -81,7 +88,9 @@ DOMAIN-SUFFIX,myetherwallet.com
 DOMAIN-SUFFIX,ledger.com
 DOMAIN-SUFFIX,walletconnect.com
 
+# ------------------------
 # 区块链数据 / DeFi 官方服务
+# ------------------------
 DOMAIN-SUFFIX,etherscan.io
 DOMAIN-SUFFIX,bscscan.com
 DOMAIN-SUFFIX,coingecko.com
