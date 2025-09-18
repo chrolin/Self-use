@@ -1,0 +1,53 @@
+# ========================
+# 广告/追踪/钓鱼站（REJECT）
+# ========================
+
+# 通用广告/追踪
+DOMAIN-SUFFIX,access.pushsdk.com
+DOMAIN-KEYWORD,yingwangtech
+DOMAIN-SUFFIX,appsflyer.com
+
+# Bybit 非官方/钓鱼
+DOMAIN,bybit-exchange.github.io
+DOMAIN,app-measurement.com
+DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
+DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,byapis.com
+DOMAIN-SUFFIX,bycbe.com
+DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,bybdc6.com
+IP-CIDR,13.32.121.6/32
+IP-CIDR,43.133.238.145/32
+IP-CIDR,13.33.187.108/32
+IP-CIDR,150.109.230.182/32
+IP-CIDR,142.251.215.234/32
+IP-CIDR,43.133.241.84/32
+IP-CIDR,3.160.150.37/32
+
+# OKX 非官方/钓鱼
+DOMAIN-KEYWORD,okx
+DOMAIN-SUFFIX,oklink.com
+
+# Binance 非官方/钓鱼
+DOMAIN-SUFFIX,appsflayer.com
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binancecnt.com
+DOMAIN-SUFFIX,binancefuture.com
+DOMAIN-SUFFIX,bnappzh.co
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,bnbzh.ac
+DOMAIN-SUFFIX,bntrace.com
+DOMAIN-SUFFIX,saasexch.cc
+DOMAIN-SUFFIX,saasexch.com
+
+# Huobi 非官方/钓鱼
+DOMAIN-KEYWORD,huobi
+DOMAIN-KEYWORD,metamask
