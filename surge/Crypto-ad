@@ -1,13 +1,13 @@
 # ========================
-# 拦截规则（广告 / 追踪 / 钓鱼域名 + 可疑 IP）
+# 拒绝规则（广告/追踪/可疑）
 # ========================
 
-# 通用广告 / 追踪
+# 广告追踪
 DOMAIN-SUFFIX,access.pushsdk.com
 DOMAIN-KEYWORD,yingwangtech
+DOMAIN-KEYWORD,appsflyer
 
-# Bybit 钓鱼 / 广告域名
-DOMAIN-KEYWORD,bybit
+# 可疑/钓鱼（按之前核查）
 DOMAIN,bybit-exchange.github.io
 DOMAIN,app-measurement.com
 DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
@@ -24,7 +24,8 @@ DOMAIN-SUFFIX,byabcde.com
 DOMAIN-SUFFIX,byapps.net
 DOMAIN-SUFFIX,byd3c3.com
 DOMAIN-SUFFIX,bybdc6.com
-DOMAIN-SUFFIX,appsflyer.com
+
+# 可疑 IP
 IP-CIDR,13.32.121.6/32
 IP-CIDR,43.133.238.145/32
 IP-CIDR,13.33.187.108/32
@@ -33,13 +34,12 @@ IP-CIDR,142.251.215.234/32
 IP-CIDR,43.133.241.84/32
 IP-CIDR,3.160.150.37/32
 
-# OKX 钓鱼 / 广告域名
+# OKX / Bybit / Binance 追踪域名
 DOMAIN-KEYWORD,okx
+DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,oklink.com
-
-# Binance 钓鱼 / 广告域名
+DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,appsflayer.com
-DOMAIN-SUFFIX,binance.cloud
 DOMAIN-SUFFIX,binancecnt.com
 DOMAIN-SUFFIX,binancefuture.com
 DOMAIN-SUFFIX,bnappzh.co
@@ -48,7 +48,5 @@ DOMAIN-SUFFIX,bnbzh.ac
 DOMAIN-SUFFIX,bntrace.com
 DOMAIN-SUFFIX,saasexch.cc
 DOMAIN-SUFFIX,saasexch.com
-
-# Huobi / 钱包钓鱼
 DOMAIN-KEYWORD,huobi
 DOMAIN-KEYWORD,metamask
