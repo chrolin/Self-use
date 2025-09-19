@@ -1,9 +1,9 @@
 # ========================
-# 交易所官方域名（放行）
+# Binance / Gate.io / OKX 官方域名（放行）
 # ========================
 
 # Binance 官方
-DOMAIN-SUFFIX,binance.com           # Binance 主站
+DOMAIN-SUFFIX,binance.com           # Binance 主站 & 社区 (包含 /community)
 DOMAIN-SUFFIX,binance.us            # Binance US
 DOMAIN-SUFFIX,binance.org           # Binance 国际组织站
 DOMAIN-SUFFIX,binance.net
@@ -11,93 +11,21 @@ DOMAIN-SUFFIX,binance.info
 DOMAIN-SUFFIX,binance.me
 DOMAIN-SUFFIX,binanceapi.com        # Binance API
 DOMAIN-SUFFIX,binance.cloud
-DOMAIN-SUFFIX,binancecnt.com
-DOMAIN-SUFFIX,binancefuture.com
-DOMAIN-SUFFIX,bnappzh.co
-DOMAIN-SUFFIX,bnbstatic.com
-DOMAIN-SUFFIX,bnbzh.ac
-DOMAIN-SUFFIX,bntrace.com
-DOMAIN-SUFFIX,saasexch.cc
-DOMAIN-SUFFIX,saasexch.com
+
+# Gate.io 官方
+DOMAIN-SUFFIX,gate.io
+DOMAIN-SUFFIX,gateio.im
+DOMAIN-SUFFIX,gateio.live
+DOMAIN-SUFFIX,gateio.ws
+DOMAIN-SUFFIX,gateio.co
+# Gate 社区 / 社交
+DOMAIN-SUFFIX,social.gateio.im
+DOMAIN-SUFFIX,social-tx.gateio.im
+DOMAIN-SUFFIX,social-hw.gateio.im
 
 # OKX / OKEx 官方
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,oklink.com
-
-# Bybit 官方
-DOMAIN-SUFFIX,bybit.com
-DOMAIN-SUFFIX,bybitglobal.com
-
-# Coinbase 官方
-DOMAIN-SUFFIX,coinbase.com
-
-# Huobi 官方
-DOMAIN-SUFFIX,huobi.com
-
-# Kraken 官方
-DOMAIN-SUFFIX,kraken.com
-
-# KuCoin 官方
-DOMAIN-SUFFIX,kucoin.com
-
-# Gate.io 官方
-DOMAIN-SUFFIX,gate.io
-# Gate 社区/社交/活动
-DOMAIN-SUFFIX,social.gateio.im
-DOMAIN-SUFFIX,social-tx.gateio.im
-DOMAIN-SUFFIX,social-hw.gateio.im
-
-# Mexc 官方
-DOMAIN-SUFFIX,mexc.com
-
-# Bitget 官方
-DOMAIN-SUFFIX,bitget.com
-
-# 其他交易所官方
-DOMAIN-SUFFIX,bitfinex.com
-DOMAIN-SUFFIX,bitstamp.net
-DOMAIN-SUFFIX,bittrex.com
-DOMAIN-SUFFIX,poloniex.com
-DOMAIN-SUFFIX,bitmart.com
-DOMAIN-SUFFIX,bitflyer.com
-DOMAIN-SUFFIX,btc.com
-
-# ========================
-# 钱包服务（官方）
-# ========================
-DOMAIN-SUFFIX,metamask.io
-DOMAIN-SUFFIX,trustwallet.com
-DOMAIN-SUFFIX,trezor.io
-DOMAIN-SUFFIX,onekey.so
-DOMAIN-SUFFIX,phantom.app
-DOMAIN-SUFFIX,myetherwallet.com
-DOMAIN-SUFFIX,ledger.com
-DOMAIN-SUFFIX,walletconnect.com
-
-# ========================
-# 区块链数据 / DeFi 官方服务
-# ========================
-DOMAIN-SUFFIX,etherscan.io
-DOMAIN-SUFFIX,bscscan.com
-DOMAIN-SUFFIX,coingecko.com
-DOMAIN-SUFFIX,coinmarketcap.com
-DOMAIN-SUFFIX,glassnode.com
-DOMAIN-SUFFIX,cryptocompare.com
-DOMAIN-SUFFIX,defillama.com
-DOMAIN-SUFFIX,curve.fi
-DOMAIN-SUFFIX,aave.com
-DOMAIN-SUFFIX,compound.finance
-DOMAIN-SUFFIX,dappradar.com
-DOMAIN-SUFFIX,opensea.io
-DOMAIN-SUFFIX,solscan.io
-DOMAIN-SUFFIX,dune.com
-DOMAIN-SUFFIX,arbitrum.io
-DOMAIN-SUFFIX,1inch.io
-DOMAIN-SUFFIX,raydium.io
-DOMAIN-SUFFIX,pancakeswap.com
-DOMAIN-SUFFIX,polygon.io
-DOMAIN-SUFFIX,avax.network
-DOMAIN-SUFFIX,sushiswap.com
-DOMAIN-SUFFIX,tether.to
-DOMAIN-SUFFIX,uniswap.org
+# OKX 社区 / Web3
+DOMAIN-SUFFIX,web3.okx.com
