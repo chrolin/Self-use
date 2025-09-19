@@ -2,16 +2,18 @@
 # 拒绝规则（广告 / 追踪 / 可疑）
 # ========================
 
-# 1️⃣ 广告 / 埋点 / SDK
-DOMAIN-SUFFIX,access.pushsdk.com          # 广告追踪
-DOMAIN-KEYWORD,yingwangtech               # 广告追踪
-DOMAIN-KEYWORD,appsflyer                  # 埋点/SDK
+# 广告追踪
+DOMAIN-SUFFIX,access.pushsdk.com
+DOMAIN-KEYWORD,yingwangtech           # 广告追踪
+DOMAIN-KEYWORD,appsflyer              # 广告追踪
 
-# 2️⃣ 可疑 / 钓鱼 / 异常域名（按之前核查）
-DOMAIN,bybit-exchange.github.io
-DOMAIN,app-measurement.com
+# 可疑 / 钓鱼（按之前核查）
+DOMAIN,bybit-exchange.github.io       # 可疑 Bybit 仓库
+DOMAIN,app-measurement.com            # 可疑追踪域
 DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
 DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,bybit.biz
 DOMAIN-SUFFIX,bycsi.com
 DOMAIN-SUFFIX,bytick.com
@@ -23,17 +25,16 @@ DOMAIN-SUFFIX,byapps.net
 DOMAIN-SUFFIX,byd3c3.com
 DOMAIN-SUFFIX,bybdc6.com
 
-# 3️⃣ 交易所相关追踪 / 社区 / 埋点域名（非官方主站，可 REJECT）
-DOMAIN-KEYWORD,okx                          # OKX SDK/社区
-DOMAIN-SUFFIX,oklink.com                     # OKX SDK/社区
-DOMAIN-SUFFIX,appsflayer.com                 # Binance 埋点/广告
-DOMAIN-SUFFIX,binancecnt.com                 # Binance 非官方域
-DOMAIN-SUFFIX,binancefuture.com              # Binance 非官方域
-DOMAIN-SUFFIX,bnappzh.co                      # Binance 非官方域
-DOMAIN-SUFFIX,bnbstatic.com                   # Binance 非官方域
-DOMAIN-SUFFIX,bnbzh.ac                         # Binance 非官方域
-DOMAIN-SUFFIX,bntrace.com                      # Binance 非官方域
-DOMAIN-SUFFIX,saasexch.cc                      # Binance 非官方域
-DOMAIN-SUFFIX,saasexch.com                     # Binance 非官方域
-DOMAIN-KEYWORD,huobi                          # Huobi SDK/广告
-DOMAIN-KEYWORD,metamask                       # 钱包类追踪/广告
+# 交易所 / 钱包追踪域（可疑或广告）
+DOMAIN-SUFFIX,appsflayer.com          # OKX / Binance 追踪
+DOMAIN-SUFFIX,binancecnt.com          # Binance 追踪
+DOMAIN-SUFFIX,binancefuture.com       # Binance 追踪
+DOMAIN-SUFFIX,bnappzh.co              # Binance 追踪
+DOMAIN-SUFFIX,bnbstatic.com           # Binance 追踪
+DOMAIN-SUFFIX,bnbzh.ac                 # Binance 追踪
+DOMAIN-SUFFIX,bntrace.com             # Binance 追踪
+DOMAIN-SUFFIX,saasexch.cc             # Binance 追踪
+DOMAIN-SUFFIX,saasexch.com            # Binance 追踪
+
+# 保留安全的关键字
+DOMAIN-KEYWORD,huobi                  # Huobi 关键字安全
