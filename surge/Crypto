@@ -19,10 +19,10 @@ DOMAIN-SUFFIX,bnbzh.ac
 DOMAIN-SUFFIX,bntrace.com
 DOMAIN-SUFFIX,saasexch.cc
 DOMAIN-SUFFIX,saasexch.com
-DOMAIN-KEYWORD,binance                # Binance 关键字匹配
+DOMAIN-KEYWORD,binance              # Binance 关键字匹配
 
 # Binance 社区/社交
-DOMAIN-SUFFIX,binance.org            # 社区活动域名示例（官方社区）
+DOMAIN-SUFFIX,binance.org           # 社区活动域名示例（官方社区）
 
 # OKX / OKEx 官方
 DOMAIN-SUFFIX,okx.com
@@ -50,7 +50,8 @@ DOMAIN-SUFFIX,kucoin.com
 
 # Gate.io 官方
 DOMAIN-SUFFIX,gate.io
-DOMAIN-KEYWORD,gate
+DOMAIN-KEYWORD,gateio
+
 # Gate 社区/社交/活动
 DOMAIN-SUFFIX,social.gateio.im
 DOMAIN-SUFFIX,social-tx.gateio.im
@@ -70,42 +71,3 @@ DOMAIN-SUFFIX,poloniex.com
 DOMAIN-SUFFIX,bitmart.com
 DOMAIN-SUFFIX,bitflyer.com
 DOMAIN-SUFFIX,btc.com
-
-# ========================
-# 钱包服务（官方）
-# ========================
-DOMAIN-SUFFIX,metamask.io
-DOMAIN-SUFFIX,trustwallet.com
-DOMAIN-SUFFIX,trezor.io
-DOMAIN-SUFFIX,onekey.so
-DOMAIN-SUFFIX,phantom.app
-DOMAIN-SUFFIX,myetherwallet.com
-DOMAIN-SUFFIX,ledger.com
-DOMAIN-SUFFIX,walletconnect.com
-
-# ========================
-# 区块链数据 / DeFi 官方服务
-# ========================
-DOMAIN-SUFFIX,etherscan.io
-DOMAIN-SUFFIX,bscscan.com
-DOMAIN-SUFFIX,coingecko.com
-DOMAIN-SUFFIX,coinmarketcap.com
-DOMAIN-SUFFIX,glassnode.com
-DOMAIN-SUFFIX,cryptocompare.com
-DOMAIN-SUFFIX,defillama.com
-DOMAIN-SUFFIX,curve.fi
-DOMAIN-SUFFIX,aave.com
-DOMAIN-SUFFIX,compound.finance
-DOMAIN-SUFFIX,dappradar.com
-DOMAIN-SUFFIX,opensea.io
-DOMAIN-SUFFIX,solscan.io
-DOMAIN-SUFFIX,dune.com
-DOMAIN-SUFFIX,arbitrum.io
-DOMAIN-SUFFIX,1inch.io
-DOMAIN-SUFFIX,raydium.io
-DOMAIN-SUFFIX,pancakeswap.com
-DOMAIN-SUFFIX,polygon.io
-DOMAIN-SUFFIX,avax.network
-DOMAIN-SUFFIX,sushiswap.com
-DOMAIN-SUFFIX,tether.to
-DOMAIN-SUFFIX,uniswap.org
