@@ -1,5 +1,5 @@
 # ========================
-# Binance / Gate.io / OKX 官方域名（放行）
+# Binance / Gate.io / OKX 域名规则（官方 + 扩展镜像）
 # ========================
 
 # Binance 官方
@@ -12,6 +12,27 @@ DOMAIN-SUFFIX,binance.me
 DOMAIN-SUFFIX,binanceapi.com        # Binance API
 DOMAIN-SUFFIX,binance.cloud
 
+# Binance 扩展域名（镜像 / 备用）
+DOMAIN-SUFFIX,binance.im
+DOMAIN-SUFFIX,binance.cc
+DOMAIN-SUFFIX,binance.vision
+DOMAIN-SUFFIX,binancecnt.com
+DOMAIN-SUFFIX,binancezh.be
+DOMAIN-SUFFIX,binancezh.biz
+DOMAIN-SUFFIX,binancezh.cc
+DOMAIN-SUFFIX,binancezh.co
+DOMAIN-SUFFIX,binancezh.com
+DOMAIN-SUFFIX,binancezh.info
+DOMAIN-SUFFIX,binancezh.ink
+DOMAIN-SUFFIX,binancezh.kim
+DOMAIN-SUFFIX,binancezh.link
+DOMAIN-SUFFIX,binancezh.live
+DOMAIN-SUFFIX,binancezh.mobi
+DOMAIN-SUFFIX,binancezh.net
+DOMAIN-SUFFIX,binancezh.pro
+DOMAIN-SUFFIX,binancezh.sh
+DOMAIN-SUFFIX,binancezh.top
+
 # Gate.io 官方
 DOMAIN-SUFFIX,gate.io
 DOMAIN-SUFFIX,gateio.im
@@ -23,9 +44,24 @@ DOMAIN-SUFFIX,social.gateio.im
 DOMAIN-SUFFIX,social-tx.gateio.im
 DOMAIN-SUFFIX,social-hw.gateio.im
 
+# Gate 扩展域名（历史 / 外围服务）
+DOMAIN-SUFFIX,gate.com
+DOMAIN-SUFFIX,gate.ac
+DOMAIN-SUFFIX,gateimg.com
+DOMAIN-SUFFIX,gatedata.org
+DOMAIN-SUFFIX,gatetrace.com
+DOMAIN-SUFFIX,gateio.services
+DOMAIN-SUFFIX,gatexsecurity.com
+
 # OKX / OKEx 官方
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,oklink.com
 # OKX 社区 / Web3
 DOMAIN-SUFFIX,web3.okx.com
+
+# OKX 扩展域名（备用 / 节点解析）
+DOMAIN-SUFFIX,okex.org
+DOMAIN-SUFFIX,okx-dns.com
+DOMAIN-SUFFIX,okx-dns1.com
+DOMAIN-SUFFIX,okx-dns2.com
